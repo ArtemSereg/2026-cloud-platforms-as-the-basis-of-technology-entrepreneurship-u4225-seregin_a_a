@@ -1,0 +1,1 @@
+# 2026-cloud-platforms-as-the-basis-of-technology-entrepreneurship-u4225-seregin_a_a
