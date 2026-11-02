@@ -340,7 +340,7 @@ SSD — это диск для хранения файлов сайта, баз�
 
 Дата обращения к источникам: 2 ноября 2026 года. Для цен использованы официальные материалы Yandex Cloud. При изменении тарифов расчёт необходимо обновить.
 
-[[1] Compute Cloud — серверы, память и диски](https://raw.githubusercontent.com/yandex-cloud/docs/master/md-docs/compute/pricing.md)
+[[1] Compute Cloud — серверы, память и диски](https://raw.githubusercontent.com/yandex-cloud/docs/master/md-docs/compute/pricing.md](https://yandex.cloud/ru/docs/compute/pricing)
 
 [[2] Yandex AI Studio — тариф YandexGPT Lite](https://aistudio.yandex.ru/ru/docs/ai-studio/pricing)
 
