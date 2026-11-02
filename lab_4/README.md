@@ -338,19 +338,17 @@ SSD — это диск для хранения файлов сайта, баз�
 
 ### Источники тарифов и решений
 
-Дата обращения к источникам: 2 ноября 2026 года. Для цен использованы официальные материалы Yandex Cloud. При изменении тарифов расчёт необходимо обновить.
-
-[[1] Compute Cloud — серверы, память и диски](https://raw.githubusercontent.com/yandex-cloud/docs/master/md-docs/compute/pricing.md](https://yandex.cloud/ru/docs/compute/pricing)
+[[1] Compute Cloud — серверы, память и диски](https://yandex.cloud/ru/docs/compute/pricing)
 
 [[2] Yandex AI Studio — тариф YandexGPT Lite](https://aistudio.yandex.ru/ru/docs/ai-studio/pricing)
 
-[[3] Managed PostgreSQL — узлы и хранилище](https://raw.githubusercontent.com/yandex-cloud/docs/master/md-docs/managed-postgresql/pricing.md)
+[[3] Managed PostgreSQL — узлы и хранилище](https://yandex.cloud/ru/docs/managed-postgresql/pricing)
 
 [[4] Object Storage — хранение и бесплатные объёмы](https://yandex.cloud/ru/docs/storage/pricing)
 
-[[5] Network Load Balancer — работа и трафик](https://raw.githubusercontent.com/yandex-cloud/docs/master/md-docs/network-load-balancer/pricing.md)
+[[5] Network Load Balancer — работа и трафик](https://yandex.cloud/ru/docs/network-load-balancer/pricing)
 
-[[6] Virtual Private Cloud — IP и интернет-трафик](https://raw.githubusercontent.com/yandex-cloud/docs/master/md-docs/vpc/pricing.md)
+[[6] Virtual Private Cloud — IP и интернет-трафик](https://yandex.cloud/ru/docs/vpc/pricing)
 
 [[7] PostgreSQL — переключение на резервный узел](https://yandex.cloud/ru/docs/managed-postgresql/concepts/high-availability)
 
