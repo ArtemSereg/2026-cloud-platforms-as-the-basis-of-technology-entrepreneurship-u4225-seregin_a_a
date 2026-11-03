@@ -12,10 +12,6 @@
 > **Author:** Seregin Artem Aleksandrovich
 > 
 > **Lab:** Lab1
-> 
-> **Date of create:** 04.10.2026
-> 
-> **Date of finished:** -
 
 ---
 
