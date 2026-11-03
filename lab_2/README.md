@@ -12,10 +12,6 @@
 > **Author:** Seregin Artem Aleksandrovich
 > 
 > **Lab:** Lab2
-> 
-> **Date of create:** -
-> 
-> **Date of finished:** -
 
 ---
 
