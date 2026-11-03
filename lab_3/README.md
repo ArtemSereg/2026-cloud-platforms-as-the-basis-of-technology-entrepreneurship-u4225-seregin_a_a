@@ -12,10 +12,6 @@
 > **Author:** Seregin Artem Aleksandrovich
 > 
 > **Lab:** Lab3
-> 
-> **Date of create:** -
-> 
-> **Date of finished:** -
 
 ---
 ### Шаг 1. Создание бакета (Cloud Storage Bucket)
