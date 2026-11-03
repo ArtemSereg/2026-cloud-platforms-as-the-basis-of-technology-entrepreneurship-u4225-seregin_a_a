@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="1 Начальный этап" id="v60uKNACOSpxj0bmxtuN">
+    <mxGraphModel dx="1737" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-2" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontColor=#233348;" value="1 Начальный этап" vertex="1">
+          <mxGeometry height="45" width="1080" x="220" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-3" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#233348;" value="100 пользователей · один сервер · проверка идеи" vertex="1">
+          <mxGeometry height="35" width="1080" x="220" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-4" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-8" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-5" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-9" value="Запрос к ИИ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-6" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;dashed=1;" target="JcBqtnGbYPWBaKGdbcg_-10" value="Копия">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f2f4f7;strokeColor=#7f8998;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Пользователь&#xa;&#xa;Открывает сайт&#xa;Заполняет анкету" vertex="1">
+          <mxGeometry height="115" width="220" x="220" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#eaf2fc;strokeColor=#4b78ad;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Один сервер в облаке&#xa;&#xa;Сайт и обработка анкеты&#xa;База PostgreSQL на том же сервере&#xa;Каталог фильмов и история" vertex="1">
+          <mxGeometry height="155" width="340" x="530" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-9" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f1eafd;strokeColor=#8662ae;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="YandexGPT Lite&#xa;&#xa;Получает список кандидатов&#xa;Выбирает 5 фильмов&#xa;Объясняет выбор" vertex="1">
+          <mxGeometry height="155" width="275" x="1025" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-10" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ef;strokeColor=#4e8c73;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Резервные копии&#xa;&#xa;Object Storage&#xa;Ежедневное сохранение базы" vertex="1">
+          <mxGeometry height="100" width="300" x="550" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-11" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#233348;" value="Ответ с подборкой возвращается пользователю по тому же пути." vertex="1">
+          <mxGeometry height="30" width="1090" x="220" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-12" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#233348;" value="Сайт и база зависят от одного сервера. При сбое возможен перерыв." vertex="1">
+          <mxGeometry height="30" width="1090" x="220" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-13" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontColor=#233348;" value="2 Тестирование партнёрами" vertex="1">
+          <mxGeometry height="45" width="1080" x="410" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-14" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#233348;" value="1 000 пользователей · отдельная база · сбор отзывов" vertex="1">
+          <mxGeometry height="35" width="1080" x="410" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-15" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-20" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-16" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-21" value="Запрос к ИИ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-17" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-22" value="Данные">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-18" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;dashed=1;" target="JcBqtnGbYPWBaKGdbcg_-23" value="Копии">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f2f4f7;strokeColor=#7f8998;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Партнёры&#xa;&#xa;Вход в аккаунт&#xa;Анкета и оценка" vertex="1">
+          <mxGeometry height="100" width="210" x="410" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-20" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#eaf2fc;strokeColor=#4b78ad;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Сервер приложения&#xa;&#xa;Сайт и подбор фильмов&#xa;Проверка данных&#xa;Журнал ошибок" vertex="1">
+          <mxGeometry height="140" width="300" x="710" y="1245" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-21" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f1eafd;strokeColor=#8662ae;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="YandexGPT Lite&#xa;&#xa;Выбор из каталога&#xa;Краткое объяснение" vertex="1">
+          <mxGeometry height="140" width="300" x="1130" y="1245" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-22" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ef;strokeColor=#4e8c73;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Облачная база данных&#xa;&#xa;Managed PostgreSQL&#xa;Профили, каталог, история" vertex="1">
+          <mxGeometry height="110" width="300" x="710" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-23" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ef;strokeColor=#4e8c73;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Копии базы&#xa;&#xa;Копии облачного сервиса&#xa;Экспорт в Object Storage" vertex="1">
+          <mxGeometry height="110" width="300" x="1130" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-24" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f2f4f7;strokeColor=#7f8998;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Отдельный тестовый сервер&#xa;&#xa;Проверка обновлений на вымышленных данных · 40 часов работы в месяц" vertex="1">
+          <mxGeometry height="75" width="1020" x="410" y="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-25" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#233348;" value="Тестовый сервер не подключается к данным партнёров." vertex="1">
+          <mxGeometry height="30" width="1090" x="410" y="1725" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-26" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#233348;" value="Ответ возвращается по тому же пути. Одна база пока остаётся точкой отказа." vertex="1">
+          <mxGeometry height="30" width="1090" x="410" y="1755" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-27" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontColor=#233348;" value="3 Публичный запуск" vertex="1">
+          <mxGeometry height="45" width="1080" x="430" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-28" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#233348;" value="10 000 пользователей · два сервера · резервная база" vertex="1">
+          <mxGeometry height="35" width="1080" x="430" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-29" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-39" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-30" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-40" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="2330" />
+              <mxPoint x="925" y="2255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-31" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="2380" />
+              <mxPoint x="925" y="2455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-32" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="2255" />
+              <mxPoint x="1245" y="2330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-33" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="2455" />
+              <mxPoint x="1245" y="2380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-34" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-43" value="Данные">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="2550" />
+              <mxPoint x="840" y="2550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-35" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;" target="JcBqtnGbYPWBaKGdbcg_-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="2570" />
+              <mxPoint x="880" y="2570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-36" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;dashed=1;" target="JcBqtnGbYPWBaKGdbcg_-44" value="Копия">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-37" edge="1" parent="1" source="JcBqtnGbYPWBaKGdbcg_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontFamily=Arial;fontSize=15;strokeColor=#62778f;dashed=1;" target="JcBqtnGbYPWBaKGdbcg_-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-38" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f2f4f7;strokeColor=#7f8998;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Пользователи&#xa;&#xa;Анкета&#xa;Подборка" vertex="1">
+          <mxGeometry height="100" width="180" x="430" y="2305" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-39" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#eaf2fc;strokeColor=#4b78ad;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Балансировщик&#xa;&#xa;Network Load Balancer&#xa;Распределяет обращения" vertex="1">
+          <mxGeometry height="130" width="220" x="670" y="2290" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-40" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#eaf2fc;strokeColor=#4b78ad;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Сервер приложения 1&#xa;&#xa;Сайт и подбор&#xa;Зона размещения А" vertex="1">
+          <mxGeometry height="100" width="245" x="960" y="2205" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-41" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#eaf2fc;strokeColor=#4b78ad;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Сервер приложения 2&#xa;&#xa;Сайт и подбор&#xa;Зона размещения Б" vertex="1">
+          <mxGeometry height="100" width="245" x="960" y="2405" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-42" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f1eafd;strokeColor=#8662ae;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="YandexGPT Lite&#xa;&#xa;Общая модель&#xa;для двух серверов" vertex="1">
+          <mxGeometry height="130" width="220" x="1280" y="2290" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-43" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ef;strokeColor=#4e8c73;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Основная база&#xa;&#xa;Managed PostgreSQL&#xa;Зона размещения А" vertex="1">
+          <mxGeometry height="105" width="270" x="705" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-44" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ef;strokeColor=#4e8c73;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Резервная база&#xa;&#xa;Копия основной базы&#xa;Зона размещения Б" vertex="1">
+          <mxGeometry height="105" width="270" x="1045" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-45" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f2f4f7;strokeColor=#7f8998;fontFamily=Arial;fontSize=17;fontColor=#233348;spacing=10;" value="Резервные копии и тестирование&#xa;&#xa;Копии базы + Object Storage · отдельный тестовый сервер" vertex="1">
+          <mxGeometry height="80" width="610" x="705" y="2790" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-46" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#233348;" value="При сбое основной базы резервная принимает её роль; возможна короткая пауза." vertex="1">
+          <mxGeometry height="30" width="1090" x="430" y="2895" as="geometry" />
+        </mxCell>
+        <mxCell id="JcBqtnGbYPWBaKGdbcg_-47" parent="1" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#233348;" value="Стрелки показывают основной путь. Ответы идут обратно; копии показаны пунктиром." vertex="1">
+          <mxGeometry height="30" width="1090" x="430" y="2925" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
